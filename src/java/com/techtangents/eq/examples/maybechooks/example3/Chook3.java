@@ -1,7 +1,8 @@
-package com.techtangents.eq.examples;
+package com.techtangents.eq.examples.maybechooks.example3;
 
 import com.techtangents.eq.Eq;
 
+// let's try Eq
 public class Chook3 {
   public final String name;
 
@@ -12,8 +13,6 @@ public class Chook3 {
   public static Chook3 chook3(final String name) {
     return new Chook3(name);
   }
-
-  // Hey, this looks pretty good...
 
   public static Eq<Chook3> eq = new Eq<Chook3>() {
     @Override

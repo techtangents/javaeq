@@ -1,4 +1,4 @@
-package com.techtangents.eq.examples.example4;
+package com.techtangents.eq.examples.maybechooks.example4;
 
 import com.techtangents.eq.Eq;
 import com.techtangents.eq.F;

@@ -1,14 +1,9 @@
-package com.techtangents.eq.examples.example4;
+package com.techtangents.eq.examples.maybechooks.example4;
 
 import com.techtangents.eq.*;
-import com.techtangents.eq.examples.example2.Chook2;
-import com.techtangents.eq.examples.example2.InstanceEq;
-import com.techtangents.eq.examples.example2.Maybe2a;
 
-import static com.techtangents.eq.Eqs.stringEq;
 import static com.techtangents.eq.Konst.konstT;
-import static com.techtangents.eq.examples.example2.Chook2.chook2;
-import static com.techtangents.eq.examples.example4.Chook4.chook4;
+import static com.techtangents.eq.examples.maybechooks.example4.Chook4.chook4;
 
 // Maybe4 can use any type as its type parameter - doesn't have to be equatable any more
 public abstract class Maybe4<T> {

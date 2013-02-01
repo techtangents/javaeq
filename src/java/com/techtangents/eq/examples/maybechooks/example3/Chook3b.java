@@ -1,7 +1,6 @@
-package com.techtangents.eq.examples.example3;
+package com.techtangents.eq.examples.maybechooks.example3;
 
 import com.techtangents.eq.Eq;
-import com.techtangents.eq.Eqs;
 import com.techtangents.eq.F;
 
 import static com.techtangents.eq.Eqs.getterEq;

@@ -1,4 +1,4 @@
-package com.techtangents.eq.examples.example1;
+package com.techtangents.eq.examples.maybechooks.example1;
 
 public class Chook1 {
   public final String name;

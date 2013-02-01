@@ -1,12 +1,11 @@
-package com.techtangents.eq.examples.example2;
+package com.techtangents.eq.examples.maybechooks.example2;
 
 import com.techtangents.eq.F;
 import com.techtangents.eq.Konst;
 import com.techtangents.eq.Thunk;
 
-import static com.techtangents.eq.Konst.konstF;
 import static com.techtangents.eq.Konst.konstT;
-import static com.techtangents.eq.examples.example2.Chook2.chook2;
+import static com.techtangents.eq.examples.maybechooks.example2.Chook2.chook2;
 
 // What if I require the type argument to be equatable?
 public abstract class Maybe2a<T extends InstanceEq<T>> implements InstanceEq<Maybe2a<T>> {
