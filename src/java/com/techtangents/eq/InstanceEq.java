@@ -1,4 +1,4 @@
-package com.techtangents.eq.examples.maybechooks.example2;
+package com.techtangents.eq;
 
 public interface InstanceEq<T> {
   boolean eq(final T other);

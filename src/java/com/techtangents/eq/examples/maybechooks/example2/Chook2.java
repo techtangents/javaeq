@@ -1,5 +1,7 @@
 package com.techtangents.eq.examples.maybechooks.example2;
 
+import com.techtangents.eq.InstanceEq;
+
 // let's try InstanceEq
 public class Chook2 implements InstanceEq<Chook2> {
   public final String name;

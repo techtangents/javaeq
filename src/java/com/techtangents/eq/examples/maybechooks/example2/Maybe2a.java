@@ -1,6 +1,7 @@
 package com.techtangents.eq.examples.maybechooks.example2;
 
 import com.techtangents.eq.F;
+import com.techtangents.eq.InstanceEq;
 import com.techtangents.eq.Konst;
 import com.techtangents.eq.Thunk;
 
