@@ -4,6 +4,8 @@ public class Eqs {
 
   public static Eq<String> stringEq = javaLangObjectEq();
 
+  public static Eq<Integer> intEq = javaLangObjectEq();
+
   public static <T> Eq<T> javaLangObjectEq() {
     return new Eq<T>() {
       @Override
