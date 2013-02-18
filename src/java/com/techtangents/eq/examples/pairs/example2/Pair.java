@@ -15,7 +15,6 @@ public class Pair<A, B> {
 
   @Override
   public boolean equals(final Object other) {
-    // instanceof and grumpy cast!
     return other instanceof Pair && eq((Pair<A, B>)other);
   }
 

@@ -1,5 +1,7 @@
 package com.techtangents.eq;
 
-public interface Eq<T> {
-  boolean eq(T a, T b);
+public interface Eq<A> {
+  boolean eq(A a, A b);
 }
+
+

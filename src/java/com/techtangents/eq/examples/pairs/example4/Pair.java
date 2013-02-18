@@ -2,7 +2,9 @@ package com.techtangents.eq.examples.pairs.example4;
 
 import com.techtangents.eq.InstanceEq;
 
-public class Pair<A extends InstanceEq<A>, B extends InstanceEq<B>> implements InstanceEq<Pair<A, B>>{
+public class Pair<A extends InstanceEq<A>, B extends InstanceEq<B>>
+  implements InstanceEq<Pair<A, B>>{
+
   public final A a;
   public final B b;
 
@@ -11,7 +13,8 @@ public class Pair<A extends InstanceEq<A>, B extends InstanceEq<B>> implements I
     this.b = b;
   }
 
-  public static <A extends InstanceEq<A>, B extends InstanceEq<B>> Pair<A, B> pair(final A a, final B b) {
+  public static <A extends InstanceEq<A>, B extends InstanceEq<B>>
+    Pair<A, B> pair(final A a, final B b) {
     return new Pair<A, B>(a, b);
   }
 
@@ -20,3 +23,4 @@ public class Pair<A extends InstanceEq<A>, B extends InstanceEq<B>> implements I
     return a.eq(other.a) && b.eq(other.b);
   }
 }
+
