@@ -80,8 +80,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/composableEq.iml" filepath="$PROJECT_DIR$/composableEq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/working/working.iml" filepath="$PROJECT_DIR$/working/working.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaeq.iml" filepath="$PROJECT_DIR$/javaeq.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">

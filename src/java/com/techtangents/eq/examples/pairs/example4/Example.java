@@ -7,10 +7,10 @@ import static java.lang.System.out;
 public class Example {
   public static void main(final String[] _) {
 
-    pair("a", "b");
+//    pair("a", "b");
     pair(person("mary"), person("bob"));
 
-    final Pair<Person, Person> p1 = ;
+    final Pair<Person, Person> p1 = pair(person("mary"), person("fred"));
     final Pair<Person, Person> p2 = pair(person("mary"), person("fred"));
     final boolean eq = p1.eq(p2);
     out.println(eq);
