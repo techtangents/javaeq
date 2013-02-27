@@ -1,5 +1,5 @@
-Composable Equality in Java
-===========================
+Value Equality in Java
+======================
 
 java.lang.Object.equals(Object) has a number of problems. This project is a presentation that proposes and alternative.
 
